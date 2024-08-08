@@ -88,7 +88,7 @@ const Product = () => {
     const productItem = products.map((product) => (
         <div 
             key={product.id} 
-            className='product__wrapper overflow-hidden group w-[300px] mt-7 relative duration-300 p-4 gap-1 hover:shadow-lg hover:cursor-pointer flex flex-col rounded-[30px]'>
+            className='product__wrapper overflow-hidden group w-[350px] mt-7 relative duration-300 p-4 gap-1 hover:shadow-lg hover:cursor-pointer flex flex-col rounded-[30px]'>
             <img src={product.images?.[0]} className='w-full h-[300px] object-contain' alt={product.title} />
             <p className='text-[red] font-bold'>{product.discountPercentage}%</p>
             <h3 className='text-xl'>{product.title}</h3>
