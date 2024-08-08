@@ -68,7 +68,7 @@ const data = [
 const Category = () => {
 
     const CategoryCard = data?.map((el) => (
-        <div key={el.id} className="w-[200px] flex gap-[10px] flex-col items-center">
+        <div key={el.id} className="w-[240px] flex gap-[10px] flex-col items-center">
             <div className=''>
                 <img src={el.url} alt="" />
             </div>
